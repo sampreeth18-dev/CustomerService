@@ -10,7 +10,7 @@ public class BadRestController {
     private BadService badService = new BadService(); // Should use @Autowired
 
     @GetMapping("/hello")
-    public String sayHello() {
+    public String policyPremiumCaluculator() {
         int x = 10 % 0; // Arithmetic exception - modulo by zero
         return "Hello, World!";
     }
